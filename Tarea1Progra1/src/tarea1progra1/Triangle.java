@@ -1,14 +1,11 @@
 package tarea1progra1;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
- *
- * @author Keylor
+ * Descripcion: Clase encargada de crear el triangulo, esta llama a la clase punto por
+ * medio de agregación.
+ * 
+ * @author  Keylor Arias y Jenner Rodriguez 
+ * @version  10 setiembre 2018 
  */
 public class Triangle {
 

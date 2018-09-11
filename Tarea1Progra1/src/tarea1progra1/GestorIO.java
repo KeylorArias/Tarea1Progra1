@@ -6,10 +6,11 @@
 package tarea1progra1;
 
 import javax.swing.JOptionPane;
-
 /**
- *
- * @author Keylor
+ * Descripcion: Clase encargada de solicitar valores y mostrar mensajes
+ * 
+ * @author  Keylor Arias y Jenner Rodriguez 
+ * @version  10 setiembre 2018 
  */
 public class GestorIO {
        public void mostrarMensaje (String mensaje){

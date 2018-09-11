@@ -6,8 +6,10 @@
 package tarea1progra1;
 
 /**
- *
- * @author Keylor
+ * Descripcion: Clase encargada de crear la lineas con utilizando la clase punto por medio de agregacion  
+ * 
+ * @author  Keylor Arias y Jenner Rodriguez 
+ * @version  10 setiembre 2018 
  */
 public class Line {
     private Point pointStart;

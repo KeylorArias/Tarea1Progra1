@@ -6,8 +6,10 @@
 package tarea1progra1;
 
 /**
- *
- * @author Keylor
+ * Descripcion: Clase encargada de inicializar el menu  
+ * 
+ * @author  Keylor Arias y Jenner Rodriguez 
+ * @version  10 setiembre 2018 
  */
 public class TestFigure {
 
