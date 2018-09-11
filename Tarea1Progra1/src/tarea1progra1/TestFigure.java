@@ -16,6 +16,9 @@ public class TestFigure {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Menu men = new Menu();
+
+        men.iniciarMenu();
     }
-    
+
 }
