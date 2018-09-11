@@ -12,15 +12,21 @@ import javax.swing.JOptionPane;
  * @author Keylor
  */
 public class GestorIO {
-
-  
-
-    public void mostrarMensaje(String mensaje) {
+       public void mostrarMensaje (String mensaje){
         JOptionPane.showMessageDialog(null, mensaje);
+        
     }
-
-    public int SolicitarMensaje(int var, String mensaje) {
-        return var = Integer.parseInt(JOptionPane.showInputDialog(mensaje));
-
+    public String solicitarString (String mensaje){
+        String texto = JOptionPane.showInputDialog(mensaje);
+        return texto;
+    }
+    public double solicitarDOuble (String mensaje){
+        double numDigitado = Double.parseDouble(JOptionPane.showInputDialog(mensaje));
+        return numDigitado;
+    }
+    public int solicitarInt (String mensaje){
+        int numDigitado = Integer.parseInt(JOptionPane.showInputDialog(mensaje));
+        return numDigitado;
+        
     }
 }

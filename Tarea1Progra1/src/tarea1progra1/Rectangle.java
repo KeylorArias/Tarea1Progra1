@@ -63,5 +63,6 @@ public class Rectangle {
     public String toString() {
         return "Rectangle " + "point1 = "  + point1 + ", point2 = " + point2 + ", point3 = " + point3 + ", point4 = " + point4;
     }
+}
 
     
